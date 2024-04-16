@@ -1,9 +1,9 @@
-# RDCS: Ransomware Detection and Classification Using Semantics with LLM-assisted Pre-training
+
 <h1 align="center">RDCS: Ransomware Detection and Classification Using Semantics with LLM-assisted Pre-training</h1>
 <!-- RDCS: Ransomware Detection and Classification Using Semantics with LLM-assisted Pre-training -->
 
 
-## Feature_Internal_Semantic_Processing
+## 🚀 Feature_Internal_Semantic_Processing
 
 ### 1. Download open-source datasets from RISS group <a href="https://github.com/rissgrouphub/ransomwaredataset2016">Link</a>, for fine-tuning and testing models
 
@@ -23,7 +23,7 @@ Please set the path to the required file
 python Feature_Internal_Semantic_Processing/Internal_Semantic_Processing.py --RansomwareData_csv_path data/path_A.csv --VariableNames_txt_path data/path_B.csv
 ```
 
-## ZeroDay Ransomware Detection
+## 🚀 ZeroDay Ransomware Detection
 
 ```bash
 python ZeroDay_Ransomware_Detection/ransomware_0_day_detection.py  
@@ -34,7 +34,7 @@ Please set the path to the required file
 
 So please do the first step of internal feature semantic processing and then divide the training dataset (for fine-tuning) and the test dataset (for testing)
 
-## Ransomware Family Classification
+## 🚀 Ransomware Family Classification
 
 ```bash
 python Ransomware_Family_Classification/ransomware_family_classifier.py 
@@ -45,7 +45,7 @@ Please set the path to the required file
 So please do the first step of internal feature semantic processing
 
 
-## If you have any questions about our project, please send email to 2272127@stu.neu.edu.cn.
+### 🙋‍♂️If you have any questions about our project, please send email to 2272127@stu.neu.edu.cn.
 
 
 
