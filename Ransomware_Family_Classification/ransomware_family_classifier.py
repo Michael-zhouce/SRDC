@@ -25,7 +25,7 @@ from prettytable import PrettyTable
 
 def main() :
     args = get_args()
-    df = pd.read_csv(args.RansomwareData_csv_path)
+    df = pd.read_csv(args.Data_csv_path)
     df.fillna('', inplace=True)
     EPOCHS = 10  
     LR = 1e-5
@@ -168,7 +168,7 @@ def get_args():
     parser =argparse.ArgumentParser(description='Description of the parameters of the program run command')
 
     ## fine-tuning data set 
-    parser.add_argument('--RansomwareData_csv_path', required=False, help='RansomwareData.csv path', 
+    parser.add_argument('--Data_csv_path', required=False, help='RansomwareData.csv path', 
                         default=r'formatted_data_split_feature.csv')
     args=parser.parse_args()
     return args

@@ -23,11 +23,11 @@ from prettytable import PrettyTable
 
 def main() :
     args = get_args()
-    df_train = pd.read_csv(args.RansomwareData_Train_path)
+    df_train = pd.read_csv(args.Data_Train_path)
     df_train.fillna('', inplace=True)
 
-    FORMATTED_DATA_PATH_TEST = "test.csv"
-    df_test = pd.read_csv(args.RansomwareData_Test_path)
+
+    df_test = pd.read_csv(args.Data_Test_path)
     df_test.fillna('', inplace=True)
     labels = {
         "Goodware": 0,
@@ -172,9 +172,9 @@ def evaluate(model, test_data):
     return true_labels, predictions_labels
 def get_args():
     parser =argparse.ArgumentParser(description='Description of the parameters of the program run command')
-    parser.add_argument('--RansomwareData_Test_path', required=False, help='RansomwareData_Test.csv path', 
+    parser.add_argument('--Data_Test_path', required=False, help='Test data after internal feature semantic processing csv path', 
                         default=r'test.csv')
-    parser.add_argument('--RansomwareData_Train_path', required=False, help='RansomwareData_Test.csv path', 
+    parser.add_argument('--Data_Train_path', required=False, help='Train data after internal feature semantic processing csv path', 
                         default=r'train.csv')
     args=parser.parse_args()
     return args   
