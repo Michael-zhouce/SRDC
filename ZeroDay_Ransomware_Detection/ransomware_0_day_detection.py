@@ -47,7 +47,7 @@ def main() :
 
 
         
-    model = Classifier(hidden_size=768, num_classes=2, max_seq_len=1024, gpt_model_name="gpt2",compression_ratio=128)
+    model = Classifier(hidden_size=768, num_classes=2, max_seq_len=1024, gpt_model_name="RDC-GPT",compression_ratio=128)
     LR = 1e-5
     EPOCHS = 20  
     train(model, df_train, df_test, LR, EPOCHS)

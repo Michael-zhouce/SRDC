@@ -25,6 +25,8 @@ python Feature_Internal_Semantic_Processing/Internal_Semantic_Processing.py --Ra
 
 ## 🚀 ZeroDay Ransomware Detection
 
+Our model after LDTAP pre-training is at Huggingface<a href="https://huggingface.co/zhouce/RDC-GPT">Link</a>, and our pre-trained corpus is at <a href="https://github.com/Michael-zhouce/RDCS/tree/main/Pretraining_Corpus">Link</a>
+
 ```bash
 python ZeroDay_Ransomware_Detection/ransomware_0_day_detection.py  
 ```
