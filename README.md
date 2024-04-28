@@ -1,5 +1,5 @@
 
-<h1 align="center">RDCS: Ransomware Detection and Classification Using Semantics with LLM-assisted Pre-training</h1>
+<h1 align="center">SRDC:Semantics-based Ransomware Detection and Classification with LLM-assisted Pre-training</h1>
 <!-- RDCS: Ransomware Detection and Classification Using Semantics with LLM-assisted Pre-training -->
 
 
