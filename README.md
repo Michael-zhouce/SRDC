@@ -1,6 +1,6 @@
 
 <h1 align="center">SRDC: Semantics-based Ransomware Detection and Classification with LLM-assisted Pre-training</h1>
-<h4 align="center"> Ce Zhou, Yilun Liu, Weibin Meng, shimin tao, Weinan Tian, Feiyu Yao, Xiaochun Li, Tao Han, Boxing Chen, Hao Yang</h4>
+<h4 align="center"> Ce Zhou, Yilun Liu, Weibin Meng, Shimin Tao, Weinan Tian, Feiyu Yao, Xiaochun Li, Tao Han, Boxing Chen, Hao Yang</h4>
 <!-- RDCS: Ransomware Detection and Classification Using Semantics with LLM-assisted Pre-training -->
 
 # Usage 🛠
