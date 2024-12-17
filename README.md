@@ -3,6 +3,9 @@
 <h4 align="center"> Ce Zhou, Yilun Liu, Weibin Meng, Shimin Tao, Weinan Tian, Feiyu Yao, Xiaochun Li, Tao Han, Boxing Chen, Hao Yang</h4>
 <!-- RDCS: Ransomware Detection and Classification Using Semantics with LLM-assisted Pre-training -->
 
+## News💡
+- [2024.12] SRDC is accepted by AAAI 2025 AISI track! 🎉🎉🎉
+
 # Usage 🛠
 
 ## 🚀 Feature_Internal_Semantic_Processing
